@@ -11,12 +11,18 @@ namespace TestApp_Git
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        [STAThread]
+     
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            testfunction();
+                
+        }
+        public void testfunction()
+        {
+            int a = 10;
+            int b = 10;
+            int z=  a +  b;
         }
     }
 }
